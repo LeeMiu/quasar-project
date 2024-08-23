@@ -3,6 +3,7 @@
   "compilerOptions": {
     "baseUrl": "."
   },
+  "include": ["*.ts", "*.d.ts", "*.js", ".eslintrc.js"],
   "exclude": [
     "./dist",
     "./.quasar",

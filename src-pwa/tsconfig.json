@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "lib": ["WebWorker", "ESNext"]
+  },
+  "include": [
+    "*.ts",
+    "*.d.ts",
+    "*.js",
+    ".eslintrc.js",
+    "./register-service-worker.ts",
+    "./custom-service-worker.ts",
+    "./pwa-env.d.ts",
+    "./pwa-flag.d.ts"
+  ]
+}
